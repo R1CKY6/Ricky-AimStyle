@@ -78,8 +78,8 @@ window.addEventListener('message', function(event) {
 
 
 document.onkeyup = function (data) {
-    // if (data.which == 27) {
-    //     $.post('http://nui2/exit', JSON.stringify({}));
-    //     return
-    // }
+    if (data.key == 'Escape') {
+        app.close();
+        return
+    }
 };
