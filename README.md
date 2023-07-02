@@ -5,10 +5,8 @@ Advanced Aim Style | FiveM
 https://discord.gg/tHAbhd94vS
 
 # Usage for ox_inventory
-Find `if invBusy == true or IsPedCuffed(playerPed) then`
-   `DisablePlayerFiring(playerId, true)`
-`end`
-And comment DisablePlayerFiring(playerId, true)
+Find `if invBusy == true or IsPedCuffed(playerPed) then  DisablePlayerFiring(playerId, true)  end`
+And comment `DisablePlayerFiring(playerId, true)`
 
 
 
