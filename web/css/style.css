@@ -1,0 +1,86 @@
+@import url("db.onlinewebfonts.com/c/264e2ce2df4ac93e29576716c566f827?family=ProximaNovaA-Semibold");
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    color: white;
+}
+
+#app {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(14, 14, 14, 0.25) 0%, rgba(12, 12, 12, 0.25) 100%);
+
+}
+
+.containerAim {
+    position: absolute;
+    height: 90.3704vh;
+    width: 39.8148vh;
+    top: 4.8148vh;
+    left: 3.0556vh;
+    background: rgba(216, 216, 216, 0.05);
+    border-radius: 0.9259vh;
+    border: 0.0926vh solid #464646;
+}
+
+.containerAim .title {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 2.4074vh;
+}
+
+.containerStili {
+    position: absolute;
+    top: 7.037vh;
+    left: 50%;
+    transform: translate(-50%);
+    width: 29.9074vh;
+    height: 69.537vh;
+}
+
+.containerStili .stile {
+    position: relative;
+    height: 4.7222vh;
+    width: 29.8148vh;
+    margin-bottom: 2.3148vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.stile:hover,
+.close:hover {
+    cursor: pointer;
+}
+
+.stile span,
+.close span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4815vh;
+}
+
+.close {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(216, 216, 216, 0.05);
+    width: 25.9259vh;
+    height: 5.8333vh;
+    bottom: 3.6111vh;
+    border-radius: 0.9259vh;
+    border: 0.0926vh solid #464646;
+}
