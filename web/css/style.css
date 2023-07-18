@@ -46,6 +46,7 @@
     transform: translate(-50%);
     width: 29.9074vh;
     height: 69.537vh;
+    overflow-y: auto;
 }
 
 .containerStili .stile {
